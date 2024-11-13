@@ -1,0 +1,62 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #FF6354;
+}
+
+.card-cadastro{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  max-width: 450px;
+  height: 50vh;
+  width:80vw;
+  padding:30px;
+  background-color: white;
+  border-radius: 5px;
+  font-family:monospace,sans-serif;
+}
+
+.card-cadastro h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.bar{
+  height:2px;
+  background-color: #FF6354;
+}
+
+.card-cadastro label{
+  margin-top: 6px;
+  margin-bottom: 6px;
+  color:#FF6354;
+}
+
+.card-cadastro input{
+  padding:4px;
+  border:1px solid #FF6354;
+  border-radius: 4px;
+  outline:none;
+}
+
+.card-cadastro button{
+  margin-top: 20px;
+  padding:5px;
+  color: white;
+  border:1px solid white;
+  border-radius:4px;
+  background-color: #FF6354;
+  color:white;
+  cursor:pointer;
+  text-transform: uppercase;
+  }
